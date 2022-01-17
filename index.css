@@ -10,7 +10,7 @@
 .nav-item a{
     margin-left: 30px;
 }
-a{
+ul li a{
     text-decoration: none;
     color: white;
 }
@@ -22,6 +22,31 @@ a:hover{
     border: 1px solid white;
     height: 100%;
     text-align: center;
+}
+#services .service-box{
+    margin: auto;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#services i{
+    margin: 0 auto;
+    color: rgb(12, 3, 3);
+    background: orange;
+    font-size: 28px;
+}
+#call-to-action{
+    background: url(images/cta-bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.title h5::after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    display: inline-block;
+    background: orange;
+    margin: 4px 10px;
 }
 .info-links img{
     font-size:1.4rem;
