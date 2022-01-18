@@ -15,6 +15,10 @@
 .nav-bottom{
     padding-top: 100px;
 }
+.nav-bottom #box-top{
+    position: relative;
+    padding-top: 100px;
+}
 .items ul li{
     padding-left: 30px;
 }
