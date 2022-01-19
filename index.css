@@ -19,6 +19,13 @@
     position: relative;
     padding-top: 100px;
 }
+.nav-bottom #box-top .nav-box div{
+    padding:30px 20px;
+    text-align: center;
+    border: 1px solid white;
+    height: 100%;
+    width: 100%;
+}
 .items ul li{
     padding-left: 30px;
 }
